@@ -173,7 +173,7 @@ function reset(){
 
 function spawnObstacles(){
  if (frameCount % 60 === 0){
-   var obstacle = createSprite(displayWidth-1000,displayHeight-400,10,40);
+   var obstacle = createSprite(displayWidth-500,displayHeight-400,10,40);
    obstacle.velocityX = -(6 + score/100);
    
     //generate random obstacles
